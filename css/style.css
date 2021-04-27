@@ -1,0 +1,63 @@
+body {
+  overflow: hidden;
+  /* Hide scrollbars */ }
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  background-size: cover;
+  -webkit-background-size: cover;
+  position: absolute;
+  z-index: -1; }
+
+.navbar-toggler {
+  border: none; }
+
+.navbar-nav > li {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.side_StyledContainer {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: 40px;
+  right: auto;
+  z-index: 10; }
+  .side_StyledContainer .social_styled {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none; }
+  .side_StyledContainer .social_styled::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 150px;
+    background-color: #007bff;
+    margin: 0px auto; }
+
+.main {
+  max-width: 1000px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0px auto;
+  padding: 150px 0px; }
+
+.jumbotron {
+  background-color: transparent; }
+  .jumbotron h1 {
+    font-size: 16px; }
+  .jumbotron .bio {
+    margin-bottom: 60px;
+    width: 45%;
+    line-height: 1.5; }
